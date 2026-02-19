@@ -1,0 +1,100 @@
+{
+  "kind": "build_request",
+  "title": "Create website for Airbnb property Veebirstays",
+  "projectName": "Veebirstays",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a landing page showcasing the Airbnb property with property name 'Veebirstays' and listing details from https://www.airbnb.co.in/rooms/1582766952093298603",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2",
+          "msg-3"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Landing page displays property name 'Veebirstays'",
+        "Page includes property photos in a gallery or carousel",
+        "Page shows key property details (location, capacity, amenities)",
+        "Page is responsive and works on mobile and desktop"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Display property amenities and features including WiFi, kitchen facilities, and other amenities mentioned in the Airbnb listing",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Amenities are displayed in an organized, scannable format",
+        "Icons or visual indicators accompany each amenity"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Include a booking section with a call-to-action button that links to the Airbnb listing URL https://www.airbnb.co.in/rooms/1582766952093298603",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Prominent booking button is visible on the page",
+        "Button links to the correct Airbnb listing URL",
+        "Button opens in a new tab"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a property details section showing location information, guest capacity, bedroom/bathroom count, and property type",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Location is clearly displayed",
+        "Guest capacity and room details are shown",
+        "Information is easy to read and well-organized"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Implement a cohesive visual design with a warm, inviting aesthetic using earthy tones (terracotta, warm whites, sage green) and clean typography that reflects hospitality and comfort",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-3"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses warm, welcoming tones",
+        "Typography is readable and professional",
+        "Overall design feels cohesive and inviting",
+        "Layout emphasizes property photos and key information"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Building a custom booking system (link to Airbnb instead)",
+    "Creating a backend reservation management system",
+    "Implementing user authentication or accounts",
+    "Real-time availability checking",
+    "Payment processing"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Hero banner image showing a welcoming vacation rental property exterior or interior with natural lighting (hero-property.dim_1920x800.png)",
+      "Placeholder amenity icons set including WiFi, kitchen, parking, and TV in a consistent style (amenities-icons.dim_600x400.png)"
+    ],
+    "edits": []
+  }
+}

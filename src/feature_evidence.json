@@ -1,0 +1,100 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-landing-page-showcasing-the-airbnb-property-with-property-name-veebirstays-and-listing-details-from-https-www-airbnb-co-in-rooms-1582766952093298603",
+      "featureTitle": "Create a landing page showcasing the Airbnb property with property name 'Veebirstays' and listing details from https://www.airbnb.co.in/rooms/1582766952093298603",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/PropertyGallery.tsx",
+        "frontend/src/components/PropertyHero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-property-amenities-and-features-including-wifi-kitchen-facilities-and-other-amenities-mentioned-in-the-airbnb-listing",
+      "featureTitle": "Display property amenities and features including WiFi, kitchen facilities, and other amenities mentioned in the Airbnb listing",
+      "files": [
+        "frontend/src/components/AmenitiesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-include-a-booking-section-with-a-call-to-action-button-that-links-to-the-airbnb-listing-url-https-www-airbnb-co-in-rooms-1582766952093298603",
+      "featureTitle": "Include a booking section with a call-to-action button that links to the Airbnb listing URL https://www.airbnb.co.in/rooms/1582766952093298603",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/BookingCTA.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-property-details-section-showing-location-information-guest-capacity-bedroom-bathroom-count-and-property-type",
+      "featureTitle": "Create a property details section showing location information, guest capacity, bedroom/bathroom count, and property type",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/PropertyInfo.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-cohesive-visual-design-with-a-warm-inviting-aesthetic-using-earthy-tones-terracotta-warm-whites-sage-green-and-clean-typography-that-reflects-hospitality-and-comfort",
+      "featureTitle": "Implement a cohesive visual design with a warm, inviting aesthetic using earthy tones (terracotta, warm whites, sage green) and clean typography that reflects hospitality and comfort",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

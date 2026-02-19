@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A website for Airbnb rental property 'veebirstays' showcasing the listing",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Hero banner image showing a welcoming vacation rental property exterior or interior with natural lighting (hero-property.dim_1920x800.png)\n- Placeholder amenity icons set including WiFi, kitchen, parking, and TV in a consistent style (amenities-icons.dim_600x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-landing-page-showcasing-the-airbnb-property-with-property-name-veebirstays-and-listing-details-from-https-www-airbnb-co-in-rooms-1582766952093298603",
+      "title": "Create a landing page showcasing the Airbnb property with property name 'Veebirstays' and listing details from https://www.airbnb.co.in/rooms/1582766952093298603",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-property-amenities-and-features-including-wifi-kitchen-facilities-and-other-amenities-mentioned-in-the-airbnb-listing",
+      "title": "Display property amenities and features including WiFi, kitchen facilities, and other amenities mentioned in the Airbnb listing",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-a-booking-section-with-a-call-to-action-button-that-links-to-the-airbnb-listing-url-https-www-airbnb-co-in-rooms-1582766952093298603",
+      "title": "Include a booking section with a call-to-action button that links to the Airbnb listing URL https://www.airbnb.co.in/rooms/1582766952093298603",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-property-details-section-showing-location-information-guest-capacity-bedroom-bathroom-count-and-property-type",
+      "title": "Create a property details section showing location information, guest capacity, bedroom/bathroom count, and property type",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-cohesive-visual-design-with-a-warm-inviting-aesthetic-using-earthy-tones-terracotta-warm-whites-sage-green-and-clean-typography-that-reflects-hospitality-and-comfort",
+      "title": "Implement a cohesive visual design with a warm, inviting aesthetic using earthy tones (terracotta, warm whites, sage green) and clean typography that reflects hospitality and comfort",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create website for Airbnb property veebirstays",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "veebirstays",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

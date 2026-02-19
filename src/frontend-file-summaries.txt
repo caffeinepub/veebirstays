@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the landing page layout with hero, gallery, property info, amenities, booking CTA, and footer sections.",
+  "frontend/src/components/PropertyHero.tsx": "Hero section component featuring the property name \"Veebirstays\" with a full-screen background image, headline, and call-to-action button that scrolls to the booking section.",
+  "frontend/src/components/PropertyGallery.tsx": "Photo gallery component with a carousel and grid layout displaying property images with smooth hover effects and transitions.",
+  "frontend/src/components/PropertyInfo.tsx": "Property details component showcasing location, guest capacity, bedrooms, bathrooms, and property type with icon cards and an about section.",
+  "frontend/src/components/AmenitiesSection.tsx": "Amenities display component featuring an amenity image banner and a grid of amenity cards with icons for WiFi, kitchen, TV, parking, and more.",
+  "frontend/src/components/BookingCTA.tsx": "Prominent call-to-action component with a button that opens the Airbnb listing in a new tab for booking.",
+  "frontend/src/components/Footer.tsx": "Footer component with property information, quick links, policies, social media icons, and attribution to caffeine.ai with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks to interact with backend; currently empty as backend has no methods.",
+  "frontend/src/index.css": "Global styles with warm, earthy OKLCH color palette (terracotta, warm white, sage green) for both light and dark modes with custom typography settings.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom terracotta, warm-white, and sage color tokens, Inter and Playfair Display fonts, and hospitality-focused design tokens.",
+  "frontend/index.html": "HTML entry point with meta tags, page title, and Google Fonts preconnect links for Inter and Playfair Display fonts."
+}

@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no methods or state defined.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented features for the Veebirstays landing page, including property showcase, amenities display, booking CTA, property details, and visual design with high confidence ratings.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing components, styling, and configuration for the Veebirstays property landing page.",
+  "frontend/index.css": "Tailwind CSS base styles with custom OKLCH color variables for light and dark modes, featuring warm earthy tones (terracotta, warm white, sage green) for hospitality aesthetic.",
+  "frontend/index.html": "HTML entry point with meta tags, page title for Veebirstays, and Google Fonts preconnect for Inter and Playfair Display fonts.",
+  "frontend/src/App.tsx": "Main React component that composes the landing page layout with PropertyHero, PropertyGallery, PropertyInfo, AmenitiesSection, BookingCTA, and Footer components.",
+  "frontend/src/components/AmenitiesSection.tsx": "Displays property amenities in a grid of cards with icons (WiFi, kitchen, TV, parking, etc.) and a banner image, using warm color scheme and hover effects.",
+  "frontend/src/components/BookingCTA.tsx": "Call-to-action section with a prominent button that opens the Airbnb listing URL in a new tab for booking.",
+  "frontend/src/components/Footer.tsx": "Footer component with property info, quick links, policies, social media icons, and attribution to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/PropertyGallery.tsx": "Photo gallery with carousel and grid layout displaying property images with smooth transitions and hover scale effects.",
+  "frontend/src/components/PropertyHero.tsx": "Full-screen hero section with background image, Veebirstays title, location info, and CTA button that scrolls to booking section.",
+  "frontend/src/components/PropertyInfo.tsx": "React component displaying property details (location, guests, bedrooms, bathrooms, property type) in a grid of cards with icons, plus an 'About This Space' section describing Veebirstays.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and manages an ICP backend actor using React Query, handling both authenticated and anonymous actors based on Internet Identity state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks that interact with the backend; currently only exports useBackendQueries which wraps useActor.",
+  "frontend/src/index.css": "Tailwind CSS configuration defining a warm, earthy color palette (terracotta, sage green, warm whites) with light/dark mode support using OKLCH color space and custom CSS variables.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the App component into the root DOM element.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors (terracotta, sage, warm-white), container settings, custom fonts (Inter, Playfair Display), animations, and plugins for typography and container queries.",
+  "project_state.json": "Project metadata tracking the Veebirstays Airbnb rental website, including implemented features (landing page, amenities, booking CTA, property details, warm design aesthetic) and image requirements."
+}
